@@ -1,7 +1,6 @@
 require_relative '../lib/parking_lot'
 
 describe ParkingLot do
-
 	before do 
 		@parking_lot = ParkingLot.new
 		@parking_lot.park(["KL-12-0214", "red"])
@@ -53,3 +52,4 @@ describe ParkingLot do
 	end
  
 end
+# just
